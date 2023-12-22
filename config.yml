@@ -1,0 +1,20 @@
+cls_params: {
+    n_classes: 2,
+    scorer: 'balanced_accuracy',
+    early_stopping_rounds: 10,
+    cv_folds: 3,
+    target: '',
+    test_size: 0.25,
+    random_state: 42,
+    best_params: {
+        loss_function: CrossEntropy,
+        learning_rate: 0.2,
+        l2_leaf_reg: 0.9,
+        colsample_bylevel: 0.05,
+        depth: 3,
+        boosting_type: Plain,
+        bootstrap_type: MVS,
+        min_data_in_leaf: 10,
+        one_hot_max_size: 15,
+        }
+    }
