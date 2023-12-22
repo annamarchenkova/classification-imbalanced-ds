@@ -1,3 +1,4 @@
+columns_to_drop: []
 cls_params: {
     n_classes: 2,
     scorer: 'balanced_accuracy',
